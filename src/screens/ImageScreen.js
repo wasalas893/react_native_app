@@ -1,9 +1,15 @@
 import React from 'react';
-
 import {Text,View,StyleSheet} from 'react-native';
+import ImageDetail from '../components/ImageDetail';
 
 const ImageScreen=()=>{
-    return <Text>Go to ImageScreen Demo</Text>
+    return(
+        <View>
+            <ImageDetail title="Forest"/>
+            <ImageDetail title="Beach"/>
+            <ImageDetail title="Mountain"/>
+        </View>
+    );
 };
 
 const styles=StyleSheet.create({});
