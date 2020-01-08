@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "mychartapp",
-    "slug": "my-new-project",
+    "name": "exmulti",
+    "slug": "exmulti",
     "privacy": "public",
-    "sdkVersion": "36.0.0",
+    "sdkVersion": "33.0.0",
     "platforms": [
       "ios",
       "android",
