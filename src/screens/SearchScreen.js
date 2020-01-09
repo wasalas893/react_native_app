@@ -24,7 +24,7 @@ const SearchScreen=()=>{
     
 
     return(
-        <View>
+        <View style={{marginLeft:30}}>
              <SearchBar
               term={term} 
               onTermChange={setTerm}
